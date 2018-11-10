@@ -1,0 +1,30 @@
+{% style 'app.css' 10 %}
+<style>
+#component {
+    background-color: #efefef;
+    text-align: center;
+    padding: 1em;
+}
+</style>
+{% endstyle %}
+
+{% template 'sfcomponent' %}
+<div id="component">
+    <h1>Hello World!</h1>
+    <p>I am a component with styles and such!</p>
+
+    {% set test_variable = 'Something' %}
+    <p><strong>{{ test_variable|default('Testing') }}</strong></p>
+
+    {% include 'components/footer.twig' %}
+</div>
+{% endtemplate %}
+
+{% javascript %}
+<script>
+"use strict";
+window.app = {log: function (thing) { console.log(thing); }};
+
+app.log('Hello world!');
+</script>
+{% endjavascript %}

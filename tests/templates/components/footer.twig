@@ -1,0 +1,16 @@
+{% template 'components/footer.twig' %}
+<footer>
+    &copy; {{ date()|date('Y') }} Single File Components in Twig
+    No rights reserved.
+</footer>
+{% endtemplate %}
+
+{% style %}
+<style>
+footer {
+    margin-top: 1em;
+    padding: 1em;
+    text-align: center;
+}
+</style>
+{% endstyle %}

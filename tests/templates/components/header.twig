@@ -1,0 +1,27 @@
+{% template 'components/header.twig' %}
+<h1>Welcome to the Demo!</h1>
+
+<nav>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Etc...</li>
+    </ul>
+</nav>
+{% endtemplate %}
+
+{% style 0 %}
+<style>
+    body {
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    }
+
+    nav > ul {
+        list-style: none;
+        display: flex;
+    }
+    nav > ul > li {
+        padding: 1em 2em;
+    }
+</style>
+{% endstyle %}
