@@ -4,7 +4,7 @@
     "type": "library",
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "license": "unlicensed",
+    "license": "MIT",
     "authors": [
         {
             "name": "Michael Kelly",

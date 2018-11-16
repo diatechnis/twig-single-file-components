@@ -8,6 +8,7 @@ final class ScriptTagParser extends AbstractTagParser
     {
         return 'javascript';
     }
+
     public function getHtmlTagName(): string
     {
         return 'script';
