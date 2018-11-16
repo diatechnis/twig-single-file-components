@@ -12,6 +12,7 @@
         }
     ],
     "require": {
+        "php": "7.1",
         "roave/security-advisories": "dev-master",
         "twig/twig": "^2.5"
     },
